@@ -1,0 +1,4 @@
+
+env = Environment(CXX = 'clang++-7', CXXFLAGS = '-O2')
+
+env.Program('2', ['main.cpp'])
